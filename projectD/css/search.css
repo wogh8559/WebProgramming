@@ -1,0 +1,77 @@
+#content.container #search
+{
+	margin: 10px 0 auto;
+	padding: 10px 0;
+	width: 100%;
+	min-width:550px;
+	display: inline-block;
+	float:none;
+}
+
+#content.container #search input[type="textbox"]
+{
+	float:left;
+	width: 30vw;
+	height: 50px;
+	min-width: 438px;
+	padding: 0 5px;
+	border:0;
+	outline: none;
+	border: 1px solid #ff7f00;
+	font-size: 20px;
+}
+
+#content.container #search input[type="button"]
+{
+	float:left;
+	width: 100px;
+	height: 52px;
+	background: #FF7F00;
+	border: 1px solid #ff7f00;
+	border: 0;
+	outline: none;
+	font-weight: bold;
+	font-size: 25px;
+	color: #fff;
+	cursor: pointer;
+}
+
+#content.container #col1
+{
+	width:55%;
+	min-width:550px;
+	margin:5px;
+	float:left;
+	text-align:center;
+}
+
+#col1 #map-canvas
+{
+	width:100%;
+	height:490px;
+	min-width:550px;
+	min-height:490px;
+	margin:0;
+	display:inline-block;
+}
+
+#content.container #col2
+{
+	width:38%;
+	height:100%;
+	min-width:380px;
+	float:left;
+	margin:5px;
+}
+#col2 #list
+{
+	width:100%;
+	height:100%;
+	border:1px solid #000;
+	overflow-y:scroll;
+}
+
+#col2 #list li
+{
+	border: 1px solid #ddd;
+}

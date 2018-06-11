@@ -1,0 +1,408 @@
+html, body
+{
+	width: 100%;
+	height: 100%;
+	min-width: 1000px;
+}
+
+body
+{
+	margin: 0px;
+	padding: 0px;
+	background: #CC0000;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 12pt;
+	font-weight: normal;
+	color: #FFF;
+	display:block;
+}
+
+h1, h2, h3
+{
+	margin: 0;
+	padding: 0;
+	text-align:center;
+}
+
+p, ol, ul
+{
+	margin:0;
+	padding:0;
+}
+
+p.blocktext
+{
+	margin-left:auto;
+	margin-right:auto;
+}
+
+ol
+{
+	list-style:decimal;
+}
+
+ul
+{
+	list-style:circle;
+}
+
+li
+{
+	list-style: none;
+}
+
+li2
+{
+	width : 60%;
+	height : 20px;
+	margin-top : 7px;
+	margin-left : 7px;
+	float : left;
+		text-align: left;
+}
+
+p
+{
+	padding: 160%;
+	text-align: center;
+}
+
+img
+{
+	border: 0;
+}
+
+a
+{
+	color: #FFF;
+	text-decoration: none;
+}
+
+a:hover
+{
+	text-decoration: none;
+}
+
+.container
+{
+	margin: 0px 40px auto;
+}
+
+.clear { clear:both;  margin-bottom: 15px;}
+
+/*********************************************************************************/
+/* Image Style                                                                   */
+/*********************************************************************************/
+
+.image
+{
+	display: inline-block;
+}
+
+.image img
+{
+	display: block;
+	width: 100%;
+}
+
+.image-full
+{
+	display: block;
+	width: 100%;
+	margin: 0 0 2em 0;
+}
+
+.image-left
+{
+	float: left;
+	margin: 0 2em 2em 0;
+}
+
+.image-centered
+{
+	display: block;
+	margin: 0 0 2em 0;
+}
+
+.image-centered img
+{
+	margin: 0 auto;
+	width: auto;
+}
+
+/*********************************************************************************/
+/* List Styles                                                                   */
+/*********************************************************************************/
+
+	ul.style1
+{
+}
+
+
+/*********************************************************************************/
+/* Social Icon Styles                                                            */
+/*********************************************************************************/
+
+ul.contact
+{
+	margin: 0;
+	padding: 2em 0em 0em 0em;
+	list-style: none;
+}
+
+ul.contact li
+{
+	display: inline-block;
+	padding: 0em 0.30em;
+	font-size: 1em;
+}
+
+ul.contact li span
+{
+	display: none;
+	margin: 0;
+	padding: 0;
+}
+
+ul.contact li a
+{
+	color: #FFF;
+}
+
+ul.contact li a:before
+{
+	display: inline-block;
+	background: #3f3f3f;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	border-radius: 20px;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+ul.contact li a.icon-twitter:before
+{
+	background: #2DAAE4;
+}
+
+ul.contact li a.icon-facebook:before
+{
+	background: #39599F;
+}
+
+ul.contact li a.icon-dribbble:before
+{
+	background: #C4376B;
+}
+
+ul.contact li a.icon-tumblr:before
+{
+	background: #31516A;
+}
+
+ul.contact li a.icon-rss:before
+{
+	background: #F2600B;
+}
+
+/*********************************************************************************/
+/* Button Style                                                                  */
+/*********************************************************************************/
+
+.button
+{
+	display: inline-block;
+	padding: 1em 3em 1em 2em;
+	letter-spacing: 0.20em;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: 400;
+	font-size: 0.90em;
+	color: #FFF;
+}
+
+.button:before
+{
+	display: inline-block;
+	background: #FFC31F;
+	margin-right: 1em;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	border-radius: 20px;
+	text-align: center;
+	color: #272925;
+}
+
+/*********************************************************************************/
+/* Header                                                                        */
+/*********************************************************************************/
+
+#header-wrapper
+{
+	background: url(../img/banner_main.jpg) no-repeat center;
+	background-size: cover;
+	border-top: 10px solid #CC0000;
+	text-align: center;
+}
+
+#header
+{
+	position: relative;
+	padding: 0.5em 0em;
+}
+
+#header .container
+{
+	width: 80%;
+}
+
+/*********************************************************************************/
+/* Logo                                                                          */
+/*********************************************************************************/
+
+#logo
+{
+}
+
+#logo h1
+{
+	position: absolute;
+	top: 0px;
+	left: 10px;
+	padding: 1em 1em;
+	background: #CC0000;
+	border-radius: 0px 0px 5px 5px;
+	width: 99px;
+}
+
+#logo a
+{
+	text-decoration: none;
+	color: #FFF;
+}
+
+#logo .container
+{
+	width: 100%;
+	height: 100%;
+}
+
+/*********************************************************************************/
+/* User Menu                                                                     */
+/*********************************************************************************/
+
+#user_menu
+{
+	position: absolute;
+	top: 2em;
+	right: 0;
+}
+
+/*********************************************************************************/
+/* Menu                                                                          */
+/*********************************************************************************/
+
+#menu
+{
+	position: absolute;
+	top: 5em;
+	right: 0;
+}
+
+#menu ul
+{
+	display: inline-block;
+}
+
+#menu li
+{
+	display: block;
+	float: left;
+	text-align: center;
+}
+
+#menu li a, #menu li span
+{
+	padding: 1em 1.5em;
+	letter-spacing: 1px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 0.90em;
+	font-weight: 600;
+	color: #FFF;
+}
+
+#menu li:hover a, #menu li.active a, #menu li.active span
+{
+	background: #CC0000;
+	border-radius: 5px;
+}
+
+#menu .container
+{
+	color: #FFF;
+}
+
+#menu .current_page_item a
+{
+}
+
+#menu .icon
+{
+}
+
+/*********************************************************************************/
+/* Banner                                                                        */
+/*********************************************************************************/
+
+#banner
+{
+	padding: 10em 0em;
+}
+
+#banner span
+{
+	display: block;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 2.5em;
+	color: #FFF;
+}
+
+/*********************************************************************************/
+/* Wrapper                                                                       */
+/*********************************************************************************/
+
+#wrapper
+{
+	margin: 10px 0px;
+	min-height: 500px;
+	background: #FFF;
+	color:#000;
+	text-align:center;
+}
+
+#wrapper a
+{
+	color: #000;
+}
+
+/*********************************************************************************/
+/* Content                                                                       */
+/*********************************************************************************/
+
+#wrapper #content
+{
+	margin: 0 auto;
+	padding: 0 25px;
+	display: block;
+}
+
+#wrapper #content.container
+{
+	display:inline-block;
+	margin: 0 auto;
+	padding:25px;
+}
